@@ -2,21 +2,35 @@
 
 Personal repository to store HTML files and other documents generated with the help of Claude (Anthropic).
 
-## Contents
+All published pages live under the `/docs` folder, which is the root served by GitHub Pages.
 
-Each file corresponds to a specific project or document generated in a conversation with Claude.
+## Repository structure
+```
+claude-docs/
+└── docs/                        # GitHub Pages root — all published files live here
+    └── travel-plans/
+        └── roma-napoles-plan.html
+```
 
-| File | Description |
-|---|---|
-| `travel-plans/roma-napoles-plan.html` | Rome & Naples travel plan — Roman Empire (March 2025) |
+## Published pages
+
+| File | Description | URL |
+|---|---|---|
+| `docs/travel-plans/roma-napoles-plan.html` | Rome & Naples travel plan — Roman Empire (March 2025) | [Open ↗](https://igv92.github.io/claude-docs/travel-plans/roma-napoles-plan.html) |
 
 ## How to use
 
-HTML files are published via GitHub Pages and can be embedded directly into Notion or other tools using an `/embed` block.
+Files inside `/docs` are published via GitHub Pages and accessible at:
+```
+https://igv92.github.io/claude-docs/
+```
 
-Base URL: `https://igv92.github.io/claude-docs/`
+To embed a page in Notion or any other tool, use an `/embed` block and paste the corresponding URL. For example:
+```
+https://igv92.github.io/claude-docs/travel-plans/roma-napoles-plan.html
+```
 
-Example: `https://igv92.github.io/claude-docs/travel-plans/roma-napoles-plan.html`
+When adding new files, always place them inside `/docs` to ensure they are published.
 
 ## About the files
 
